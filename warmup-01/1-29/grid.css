@@ -1,0 +1,15 @@
+main {
+  display: grid;
+}
+
+main > nav {
+  order: 2;
+}
+
+main > .content {
+  order: 1;
+}
+
+main > aside {
+  order: 3;
+}

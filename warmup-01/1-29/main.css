@@ -1,0 +1,50 @@
+* {
+ box-sizing:border-box;
+}
+
+html, body{
+ height: 100%;
+}
+
+body > *{
+  border:1px solid rgb(131, 61, 61);
+}
+
+body > header, body > footer {
+  background: #444;
+  color:#eee;
+  height: 70px;
+  line-height: 70px;
+  text-align:center;
+}
+
+main {
+  background: #fafafa;
+}
+
+main > .content {
+  background: black;
+}
+
+main > aside {
+  background: blue
+}
+
+main > nav {
+  background: green;
+}
+
+.deck {
+  background: orange;
+}
+
+.deck:first-child {
+  border-bottom: 1px solid black;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
